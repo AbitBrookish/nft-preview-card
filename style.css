@@ -17,10 +17,43 @@ body {
   padding: 0;
   display: grid;
   place-content: center;
+  background: hsl(217, 54%, 11%);
+}
+
+p {
+  font-size: 18px;
 }
 
 .nft-wrapper {
   max-width: 330px;
+  background-color: hsl(216, 50%, 16%);
+}
+
+.description h4 {
+  color: hsl(0, 0%, 100%);
+}
+
+.description p {
+  color: hsl(215, 51%, 70%);
+}
+
+.eq-value__pt {
+  color: hsl(178, 100%, 50%);
+}
+
+.eq-value__time {
+  color: hsl(215, 51%, 70%);
+}
+
+
+.creator {
+  border-top: 1px solid hsl(215, 32%, 27%);
+}
+.creator p {
+  color: hsl(215, 51%, 70%);
+}
+span {
+  color: hsl(0, 0%, 100%);
 }
 
 
@@ -34,7 +67,20 @@ body {
   border: 1px solid #fff;
 }
 
+/* 
+## Colors
 
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%) */
 
 
 
