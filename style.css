@@ -1,0 +1,35 @@
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: #3e52a3; 
+}
