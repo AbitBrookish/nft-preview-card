@@ -27,6 +27,7 @@ p {
 .nft-wrapper {
   max-width: 330px;
   background-color: hsl(216, 50%, 16%);
+  padding: 24px;
 }
 
 .description h4 {
@@ -59,7 +60,7 @@ span {
 
 /* img dimensions */
 #eq-image {
-  max-width: 300px;
+  max-width: 275px;
 }
 
 #avatar {
@@ -89,6 +90,7 @@ span {
 .attribution { 
   font-size: 11px; 
   text-align: center; 
+  display: none;
 }
 
 .attribution a { 
