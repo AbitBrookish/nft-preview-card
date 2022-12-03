@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
 
 * {
@@ -29,11 +29,13 @@ p {
   background-color: hsl(216, 50%, 16%);
   padding: 24px;
   border-radius: 16px;
+  font-family: 'Outfit',Georgia, 'Times New Roman', Times, serif;
 }
 
 .description h4 {
   color: hsl(0, 0%, 100%);
-  font-size: 22px;
+  font-size: 24px;
+  font-weight: 600;
   margin-top: 30px;
   margin-bottom: 18px;
 }
@@ -42,6 +44,7 @@ p {
   color: hsl(215, 51%, 70%);
   line-height: 28px;
   margin: 0;
+  font-size: 16px;
 }
 
 .eq-value {
@@ -55,6 +58,9 @@ p {
   align-items: center;
   gap: 8px;
 }
+.eq-value__pt p {
+  font-size: 16px;
+}
 
 .eq-value__time {
   color: hsl(215, 51%, 70%);
@@ -62,6 +68,9 @@ p {
   justify-content: start;
   align-items: center;
   gap: 8px;
+}
+.eq-value__time p {
+  font-size: 16px;
 }
 
 
@@ -75,6 +84,7 @@ p {
 
 .creator p {
   color: hsl(215, 51%, 70%);
+  font-size: 16px;
 }
 
 span {
@@ -84,7 +94,7 @@ span {
 
 /* img dimensions */
 #eq-image {
-  max-width: 275px;
+  max-width: 280px;
   border-radius: 8px;
 }
 
