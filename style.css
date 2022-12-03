@@ -39,6 +39,11 @@ p {
   margin-top: 30px;
   margin-bottom: 18px;
 }
+.description h4:hover,
+.description h4:active {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
 
 .description p {
   color: hsl(215, 51%, 70%);
@@ -90,11 +95,16 @@ p {
 span {
   color: hsl(0, 0%, 100%);
 }
+span:hover,
+span:active {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
 
 
 /* img dimensions */
 #eq-image {
-  max-width: 280px;
+  width: 100%;
   border-radius: 8px;
 }
 
